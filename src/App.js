@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
 import View from "./Pages/ViewPost";
@@ -25,27 +25,25 @@ function App() {
   });
   return (
     <div>
-      <HashRouter>
-        <Post>
-          <Router>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/signup">
-              <Signup />
-            </Route>
-            <Route path="/login">
-              <Login />
-            </Route>
-            <Route path="/create">
-              <Create />
-            </Route>
-            <Route path="/view">
-              <View />
-            </Route>
-          </Router>
-        </Post>
-      </HashRouter>
+      <Post>
+        <Router>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/signup">
+            <Signup />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/create">
+            <Create />
+          </Route>
+          <Route path="/view">
+            <View />
+          </Route>
+        </Router>
+      </Post>
     </div>
   );
 }
