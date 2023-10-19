@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/e-commerce.github.io/static/css/main.f59dd847.css",
+    "main.js": "/e-commerce.github.io/static/js/main.f58bb9ac.js",
+    "static/media/olx-logo.png": "/e-commerce.github.io/static/media/olx-logo.b3f099a2fe7978c70944.png",
+    "index.html": "/e-commerce.github.io/index.html",
+    "main.f59dd847.css.map": "/e-commerce.github.io/static/css/main.f59dd847.css.map",
+    "main.f58bb9ac.js.map": "/e-commerce.github.io/static/js/main.f58bb9ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f59dd847.css",
+    "static/js/main.f58bb9ac.js"
+  ]
+}
