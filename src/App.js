@@ -25,25 +25,27 @@ function App() {
   });
   return (
     <div>
-      <Post>
-        <Router>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/signup">
-            <Signup />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/create">
-            <Create />
-          </Route>
-          <Route path="/view">
-            <View />
-          </Route>
-        </Router>
-      </Post>
+      <HashRouter>
+        <Post>
+          <Router>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/signup">
+              <Signup />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/create">
+              <Create />
+            </Route>
+            <Route path="/view">
+              <View />
+            </Route>
+          </Router>
+        </Post>
+      </HashRouter>
     </div>
   );
 }
